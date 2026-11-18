@@ -1,0 +1,30 @@
+# 公開してはいけないもの(これは安全網の一つにすぎない。公開前の監査 audit_public_repo.py が本体)
+# 秘密鍵・シード・認証情報
+*.hex
+*.seed
+*.pem
+*.key
+*.p12
+*.pfx
+*.pw
+.env
+.env.*
+*secret*
+*token*
+*credential*
+*password*
+id_rsa*
+id_ed25519*
+# 一時・ローカル検証・作業物
+*.tmp
+*.log
+*.bak
+*.swp
+__pycache__/
+dist_out/
+store/
+scratch/
+local_verify*
+*.zip
+Thumbs.db
+.DS_Store

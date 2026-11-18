@@ -1,0 +1,3 @@
+# 署名・SHA-256 はバイト列に対して計算される。改行変換(CRLF⇔LF)をさせない。
+* -text
+current/** -text -diff
